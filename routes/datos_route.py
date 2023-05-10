@@ -12,6 +12,7 @@ def get_all_data():
     respuesta = control.consultar()
     return Response(content=respuesta.__str__(),status_code=HTTP_200_OK)
 
+
 @datos.post('/datos')
 def post_data(data: DataSchema):
     new_data = data.dict()
