@@ -1,4 +1,4 @@
 from sqlalchemy import  create_engine, MetaData
 
-engine = create_engine('mysql+mysqlconnector://root:1234@localhost/test')
+engine = create_engine('mysql://root:c8UQwSGYneKMPHAWjEkk@containers-us-west-193.railway.app:6980/railway/')
 meta_data = MetaData()
